@@ -25,7 +25,11 @@ const Main = () => {
             impressive <br /> websites for my clients and always responsible for
             the job.
           </p>
-          <a href="https://www.linkedin.com/in/arifhossain80/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/arifhossain80/"
+          >
             <Button variant="danger">HIRE ME</Button>
           </a>
 
