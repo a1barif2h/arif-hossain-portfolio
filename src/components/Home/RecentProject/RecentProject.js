@@ -42,7 +42,7 @@ const RecentProject = () => {
     },
   ];
   return (
-    <section className="mt-5 pt-5">
+    <section data-aos="fade-left" className="mt-5 pt-5">
       <h1 className="text-center text-white pt-5">Recent Projects</h1>
       <hr
         className="mb-md-5 mb-sm-3"
@@ -54,7 +54,7 @@ const RecentProject = () => {
       />
       <Row className="mb-5">
         {projectData.map((project) => (
-          <Col key={project.id} md={4}>
+          <Col data-aos="zoom-in" key={project.id} md={4}>
             <ProjectDetail project={project} />
           </Col>
         ))}
