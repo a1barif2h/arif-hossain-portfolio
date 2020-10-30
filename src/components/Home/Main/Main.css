@@ -1,0 +1,47 @@
+.main-logo {
+  display: grid;
+  place-items: center;
+}
+
+.design {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.design > *,
+.blend > * {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+}
+
+#rotate-border {
+  border: 15px #7140d9 solid;
+  transform: rotate(45deg);
+  box-shadow: 0 0 8px #7140d9, inset 0 0 15px #7140d9;
+}
+/* ADFF2F */
+/* eb311f */
+/* 7140D9 */
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.data-white {
+  background-color: #fff;
+}
+
+.blend {
+  mix-blend-mode: multiply;
+}
+
+img {
+  object-fit: fill;
+}
+
+.design > img {
+  box-shadow: 0 0 10px #bac3c3;
+}
